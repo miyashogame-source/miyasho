@@ -165,22 +165,16 @@ public class EnemyVision : MonoBehaviour
     {
         Vector3 dir = (target - origin).normalized;
 
-        RaycastHit hit;
+        // 自分のレイヤーは障害物から除外（自分に当たって見えなくなるのを防ぐ）
+        int mask = obstacleLayer & ~(1 << gameObject.layer);
 
-        // まず全レイヤーで当てて、Playerが最初ならOK（参考コード寄せ）
-        // ただし trigger は無視（必要なら変更してOK）
-        if (Physics.Raycast(origin, dir, out hit, distance, ~0, QueryTriggerInteraction.Ignore))
-        {
-            if (hit.collider != null && hit.collider.CompareTag("Player"))
-                return true;
-
-            // 最初に当たったのがPlayer以外なら遮蔽
+        // 壁に当たったら遮蔽
+        if (Physics.Raycast(origin, dir, distance, mask, QueryTriggerInteraction.Ignore))
             return false;
-        }
 
-        // 何にも当たらない場合は「見えていない」扱い（参考コードと同じ）
-        return false;
+        return true;
     }
+
 
     // =========================
     // Origin / Forward

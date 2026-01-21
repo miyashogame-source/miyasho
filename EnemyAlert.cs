@@ -113,11 +113,10 @@ public class EnemyAlert : MonoBehaviour
             }
             else
             {
-                if (proximityOnlyIncrease > 0f && dist <= suspiciousBoostRadius)
-                    delta += proximityOnlyIncrease * nearMul * Time.deltaTime;
-                else
-                    delta -= alertDecrease * Time.deltaTime;
+                // ★ 視界に入っていないなら絶対に上げない
+                delta -= alertDecrease * Time.deltaTime;
             }
+
         }
         else
         {
