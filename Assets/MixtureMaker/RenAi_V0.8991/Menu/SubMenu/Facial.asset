@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Facial
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 103c3858de49a7d4697e673394b15d0f, type: 2}
+  controls:
+  - name: 'Left canine tooth '
+    icon: {fileID: 2800000, guid: 7a9b7e08435430845903a3d7e4f3fa87, type: 3}
+    type: 102
+    parameter:
+      name: MouthShape
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: 
+    - name: 
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Right canine tooth
+    icon: {fileID: 2800000, guid: 7c25f38685e5cf84981bcde0dd068672, type: 3}
+    type: 102
+    parameter:
+      name: MouthShape
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Mouth VVV
+    icon: {fileID: 2800000, guid: 7d6264df57c6c2145a71c44a9e1fa2d9, type: 3}
+    type: 102
+    parameter:
+      name: MouthShape
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: TongueX
+    - name: TongueY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Tongue Out
+    icon: {fileID: 2800000, guid: ea7162daf4e6f7147aa6ddf356287ab1, type: 3}
+    type: 201
+    parameter:
+      name: IsTongueOut
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: TongueX
+    - name: TongueY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}

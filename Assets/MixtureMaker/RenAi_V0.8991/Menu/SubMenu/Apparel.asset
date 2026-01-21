@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Apparel
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 103c3858de49a7d4697e673394b15d0f, type: 2}
+  controls:
+  - name: DefaultCloth
+    icon: {fileID: 2800000, guid: 98a74b757aba578469d47ca05419f709, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cde017a9b711d774a8ff9e208db48851, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hip shell clear
+    icon: {fileID: 2800000, guid: 2e3282afb10314b4890ee13d09953bd6, type: 3}
+    type: 102
+    parameter:
+      name: IsHipShellClear
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cde017a9b711d774a8ff9e208db48851, type: 2}
+    subParameters: []
+    labels: []
+  - name: Organs Dissolve
+    icon: {fileID: 2800000, guid: 2e3282afb10314b4890ee13d09953bd6, type: 3}
+    type: 102
+    parameter:
+      name: IsOrgansExist
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cde017a9b711d774a8ff9e208db48851, type: 2}
+    subParameters: []
+    labels: []
+  - name: Crotch controller
+    icon: {fileID: 2800000, guid: 2e3282afb10314b4890ee13d09953bd6, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cd38a7acda2dd094aa3463aa0c9afb98, type: 2}
+    subParameters: []
+    labels: []
+  - name: BreastSize
+    icon: {fileID: 2800000, guid: 0b5fae191d187fc4e9206b0195bdf73e, type: 3}
+    type: 203
+    parameter:
+      name: IsBreastSizeChanging
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cd38a7acda2dd094aa3463aa0c9afb98, type: 2}
+    subParameters:
+    - name: BreastSize
+    labels: []

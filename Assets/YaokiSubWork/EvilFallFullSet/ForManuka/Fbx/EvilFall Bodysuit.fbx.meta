@@ -1,0 +1,1680 @@
+fileFormatVersion: 2
+guid: 45e9500bb85e9b34298a56f8d60272f5
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: f93862cea07703842aa72d996f454cba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.001
+    second: {fileID: 2100000, guid: f93862cea07703842aa72d996f454cba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainUVTexture
+    second: {fileID: 2100000, guid: fb818c08ce26e0a42b740d9477a145bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainUVTrains
+    second: {fileID: 2100000, guid: f6553cf681dd5fe4d865bedd019a5522, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_body.001
+    second: {fileID: 2100000, guid: c51f82d7f6b5d824b9128b8fbc864a68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_face.001
+    second: {fileID: 2100000, guid: 4ddf1f718549d484c9ec667cb9c0ac04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_option.001
+    second: {fileID: 2100000, guid: b227dcd9487f90e478c900cb1ff2f587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 9abeb5bb9e844ec41bdeddbeb84b8603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 9abeb5bb9e844ec41bdeddbeb84b8603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 2c4820f079ea26b42a60982d5517fed9, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: EvilFall Bodysuit(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FaceMask
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainHipTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainChestTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainSpinTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FaceMaskGasFilter
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegToyUrineCollector
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegToyCollectionBottle
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegToyCollectionTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnalToy
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrineCollectTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CyberDick
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CyberLockedDick
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CyberLockedDickTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadMask
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CyberEgg
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToy
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: 0.015423797, y: 0.05884034, z: -0.022968592}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyDotToy
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBodySuit
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainNeckTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBone
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadACC
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainCoatAcc
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainCoat
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainLegHeel
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainArmGlove
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponBaseHandle
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponeBladePart
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponMain
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Armature
+      position: {x: -8.280192e-17, y: -0.032065224, z: 0.7833163}
+      rotation: {x: 0.70710665, y: 0, z: -0, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -1.6560378e-16, y: 0.038121518, z: -9.979715e-10}
+      rotation: {x: 0.000000002543615, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0, y: 0.07771116, z: -0.0000000013356498}
+      rotation: {x: -0.1352366, y: -1.0964506e-15, z: -1.0964504e-15, w: 0.9908134}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Neck
+      parentName: Chest
+      position: {x: -6.696863e-16, y: 0.15105037, z: 0.010741449}
+      rotation: {x: 0.15764534, y: -0.00000011771868, z: -0.000000018792683, w: 0.98749584}
+      scale: {x: 1, y: 0.9999998, z: 0.99999976}
+    - name: Head
+      parentName: Neck
+      position: {x: -1.990873e-15, y: 0.044951826, z: -0.000000005122274}
+      rotation: {x: -0.022650823, y: 0.00000011917862, z: 0.00000000270004, w: 0.99974346}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: LeftEye
+      parentName: Head
+      position: {x: -0.030189157, y: 0.04188112, z: 0.02659284}
+      rotation: {x: -0.0000006555732, y: 7.494062e-13, z: 9.914868e-17, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: RightEye
+      parentName: Head
+      position: {x: 0.030189157, y: 0.04188112, z: 0.02659284}
+      rotation: {x: -0.0000006555732, y: -7.297521e-14, z: 9.9688194e-17, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Cheek_root_L
+      parentName: Head
+      position: {x: -0.022340031, y: 0.011043961, z: 0.0434338}
+      rotation: {x: 0.73559153, y: -0.16836135, z: 0.44914058, w: 0.4783642}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Cheek_L
+      parentName: Cheek_root_L
+      position: {x: 0.00000016205013, y: 0.010397388, z: -0.000000044703484}
+      rotation: {x: -0.000007035211, y: 0.000006929041, z: -0.0000015199186, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cheek_L_end
+      parentName: Cheek_L
+      position: {x: -0.00000007264316, y: 0.022983134, z: -0.00000026915222}
+      rotation: {x: -0.0000029187647, y: -0.000014157968, z: -0.0000004395843, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: Cheek_root_R
+      parentName: Head
+      position: {x: 0.022340031, y: 0.011043961, z: 0.0434338}
+      rotation: {x: 0.73559153, y: 0.16836135, z: -0.44914058, w: 0.4783642}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Cheek_R
+      parentName: Cheek_root_R
+      position: {x: -0.00000016205013, y: 0.010397388, z: -0.000000044703484}
+      rotation: {x: -0.000007035211, y: -0.000006929041, z: 0.0000015199186, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cheek_R_end
+      parentName: Cheek_R
+      position: {x: 0.00000007264316, y: 0.022983134, z: -0.00000026915222}
+      rotation: {x: -0.000005805864, y: 0.000013282521, z: 0.0000011213126, w: 1}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000005}
+    - name: Tang
+      parentName: Head
+      position: {x: 1.09280455e-14, y: -0.0056504444, z: 0.060875732}
+      rotation: {x: 0.93797725, y: 6.9988035e-14, z: -3.7979816e-14, w: 0.34669688}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Tang.001
+      parentName: Tang
+      position: {x: -3.006967e-20, y: 0.0069244765, z: -0.000000026077032}
+      rotation: {x: 0.2302234, y: -3.689292e-15, z: -1.0634781e-14, w: 0.9731378}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Tang.001_end
+      parentName: Tang.001
+      position: {x: 1.0298883e-16, y: 0.0066951495, z: 0.000000067055225}
+      rotation: {x: 0.09463277, y: 0.00000014440039, z: -0.000000008836185, w: 0.99551225}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: EvilFallHeadMask
+      parentName: Head
+      position: {x: 5.246306e-15, y: 0.034606718, z: 0.015528244}
+      rotation: {x: -0.0000004131125, y: 7.8159674e-14, z: 6.75016e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallFaceMask
+      parentName: Head
+      position: {x: 1.707837e-14, y: -0.0084962165, z: 0.053945992}
+      rotation: {x: 0.10366267, y: 0.000000118567115, z: 0.000000012357609, w: 0.9946125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GasMask.L.001
+      parentName: EvilFallFaceMask
+      position: {x: -0.04081479, y: 0.0067637106, z: -0.0013623522}
+      rotation: {x: 0.32696494, y: 0.34668168, z: 0.69969624, w: 0.53228843}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: GasMask.R.001
+      parentName: EvilFallFaceMask
+      position: {x: 0.04081479, y: 0.0067637106, z: -0.0013623326}
+      rotation: {x: 0.3269651, y: -0.34668168, z: -0.6996962, w: 0.5322884}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999994}
+    - name: GagMain
+      parentName: EvilFallFaceMask
+      position: {x: -0.0000000019494157, y: 0.008907246, z: 0.008176453}
+      rotation: {x: -0.107049264, y: -0.00000047409728, z: 0.000000025522544, w: 0.99425375}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: GagTube.L.001
+      parentName: EvilFallFaceMask
+      position: {x: -0.015466243, y: 0.008183405, z: 0.008324254}
+      rotation: {x: -0.17623669, y: -0.047823433, z: 0.69575113, w: 0.6946826}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: GagTube.R.001
+      parentName: EvilFallFaceMask
+      position: {x: 0.015466239, y: 0.008183405, z: 0.008324262}
+      rotation: {x: -0.17623654, y: 0.047823276, z: -0.69575125, w: 0.6946826}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: GasMaskMain
+      parentName: EvilFallFaceMask
+      position: {x: -0.000000004372802, y: -0.006100445, z: 0.018340878}
+      rotation: {x: -0.035033774, y: -0.0000001191361, z: -0.0000000041763477, w: 0.99938613}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: GasMaskTube.L.001
+      parentName: EvilFallFaceMask
+      position: {x: -0.049227577, y: -0.0015134569, z: -0.007939921}
+      rotation: {x: -0.57410616, y: -0.22571103, z: 0.62156975, w: 0.4828123}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: GasMaskTube.L.002
+      parentName: GasMaskTube.L.001
+      position: {x: 0.00000012572855, y: 0.028343502, z: 0.0000000037252903}
+      rotation: {x: -0.23688515, y: 0.023753904, z: -0.123513915, w: 0.9633616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GasMaskTube.R.001
+      parentName: EvilFallFaceMask
+      position: {x: 0.049227584, y: -0.0015133386, z: -0.00793993}
+      rotation: {x: 0.5741061, y: -0.22571108, z: 0.6215699, w: -0.4828122}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: GasMaskTube.R.002
+      parentName: GasMaskTube.R.001
+      position: {x: -0.00000012759119, y: 0.028343497, z: 0.0000000027939677}
+      rotation: {x: -0.23688512, y: -0.02375392, z: 0.12351397, w: 0.96336156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallHeadACC
+      parentName: Head
+      position: {x: -7.2911054e-15, y: 0.07714477, z: 0.020039193}
+      rotation: {x: 0.032161586, y: -0.00000011914754, z: -0.000000003833895, w: 0.9994827}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ear.L.001
+      parentName: EvilFallHeadACC
+      position: {x: -0.06342663, y: 0.07718739, z: 0.018758964}
+      rotation: {x: 0.15745771, y: 0.088400364, z: 0.36203265, w: 0.914508}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Ear.L.002
+      parentName: Ear.L.001
+      position: {x: -0.000000012674718, y: 0.051074564, z: -0.000000040978193}
+      rotation: {x: 0.0060708746, y: -0.024626384, z: -0.026108798, w: 0.9993373}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ear.R.001
+      parentName: EvilFallHeadACC
+      position: {x: 0.06342664, y: 0.07718739, z: 0.018758934}
+      rotation: {x: 0.15745762, y: -0.08840014, z: -0.36203256, w: 0.91450804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear.R.002
+      parentName: Ear.R.001
+      position: {x: 0.00000007530616, y: 0.051074557, z: -0.000000035390258}
+      rotation: {x: 0.0060708593, y: 0.024626361, z: 0.026108658, w: 0.9993373}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: HornAcc.L
+      parentName: EvilFallHeadACC
+      position: {x: -0.07181274, y: 0.024043772, z: 0.008316083}
+      rotation: {x: -0.002098638, y: -0.00000009300113, z: 0.6902331, w: 0.723584}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: HornAcc.R
+      parentName: EvilFallHeadACC
+      position: {x: 0.07181274, y: 0.02404377, z: 0.008316049}
+      rotation: {x: -0.002098806, y: 0.00000026747318, z: -0.6902331, w: 0.723584}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: BrainWashEarRoot.L
+      parentName: EvilFallHeadACC
+      position: {x: -0.086539336, y: 0.029400144, z: -0.006890649}
+      rotation: {x: 0.0014053169, y: -0.05064654, z: 0.9916907, w: 0.11824813}
+      scale: {x: 1.0000018, y: 1, z: 1.0000004}
+    - name: BrainWashEar.L
+      parentName: BrainWashEarRoot.L
+      position: {x: -0.016179599, y: 0.069812894, z: 0.0019921705}
+      rotation: {x: 0.08574953, y: -0.07427717, z: 0.78986275, w: 0.6026996}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: BrainWashEarRoot.R
+      parentName: EvilFallHeadACC
+      position: {x: 0.086539336, y: 0.029400144, z: -0.00689069}
+      rotation: {x: -0.0014051261, y: -0.05064657, z: 0.9916907, w: -0.11824812}
+      scale: {x: 1.0000023, y: 1, z: 1.0000004}
+    - name: BrainWashEar.R
+      parentName: BrainWashEarRoot.R
+      position: {x: 0.01617963, y: 0.06981277, z: 0.0019921619}
+      rotation: {x: 0.085749626, y: 0.07427706, z: -0.78986275, w: 0.6026996}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Shoulder_L
+      parentName: Chest
+      position: {x: -0.039076414, y: 0.12651093, z: -0.00430435}
+      rotation: {x: -0.42778844, y: 0.4277884, z: 0.56302494, w: 0.56302494}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: UpperArm_L
+      parentName: Shoulder_L
+      position: {x: -0.000000009661537, y: 0.036755722, z: -0.0000000144384025}
+      rotation: {x: 0.000000993195, y: -0.0000010661915, z: -0.0097146295, w: 0.99995285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_L
+      parentName: UpperArm_L
+      position: {x: 7.5715434e-11, y: 0.17861232, z: 0.000000023873293}
+      rotation: {x: -0.00035124717, y: 0.00033623635, z: 0.03101513, w: 0.9995188}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: Hand_L
+      parentName: LowerArm_L
+      position: {x: -0.0000000055879354, y: 0.18335094, z: -0.0000007986026}
+      rotation: {x: 0.00034700474, y: -0.00033861003, z: -0.02130367, w: 0.99977297}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000001}
+    - name: ThumbProximal_L
+      parentName: Hand_L
+      position: {x: -0.015829789, y: 0.017383082, z: -0.007423264}
+      rotation: {x: -0.3762542, y: 0.91496843, z: -0.0883156, w: -0.116043195}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: ThumbIntermediate_L
+      parentName: ThumbProximal_L
+      position: {x: -0.00000016088597, y: 0.021940868, z: -0.000000026542693}
+      rotation: {x: -0.010614656, y: -0.03755244, z: 0.03449245, w: 0.9986428}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: ThumbDistal_L
+      parentName: ThumbIntermediate_L
+      position: {x: 0.00000017485581, y: 0.017579917, z: 0.00000029290095}
+      rotation: {x: -0.012906137, y: 0.00094420364, z: -0.0027718162, w: 0.99991244}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: IndexProximal_L
+      parentName: Hand_L
+      position: {x: -0.018184064, y: 0.059868827, z: 0.0017712195}
+      rotation: {x: -0.024973433, y: -0.03323785, z: 0.0033795852, w: 0.9991297}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: IndexIntermediate_L
+      parentName: IndexProximal_L
+      position: {x: 0.00000004656613, y: 0.021937143, z: -0.0000002279412}
+      rotation: {x: 0.012622941, y: -0.012533849, z: -0.004794783, w: 0.9998303}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: IndexDistal_L
+      parentName: IndexIntermediate_L
+      position: {x: -0.000000029802322, y: 0.01456511, z: -0.00000026705675}
+      rotation: {x: 0.024803761, y: -0.023599898, z: 0.002197791, w: 0.99941134}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999964}
+    - name: MiddleProximal_L
+      parentName: Hand_L
+      position: {x: -0.00634962, y: 0.059662983, z: 0.0047273734}
+      rotation: {x: -0.035819598, y: 0.054714754, z: 0.015836244, w: 0.9977337}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: MiddleIntermediate_L
+      parentName: MiddleProximal_L
+      position: {x: 0.000000016298145, y: 0.02515681, z: -0.00000072759576}
+      rotation: {x: 0.021582678, y: -0.022454044, z: 0.005636679, w: 0.999499}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: MiddleDistal_L
+      parentName: MiddleIntermediate_L
+      position: {x: -0.0000000013969839, y: 0.016467152, z: -0.00000014176476}
+      rotation: {x: 0.003557656, y: -0.0036053807, z: -0.0005488231, w: 0.99998707}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: RingProximal_L
+      parentName: Hand_L
+      position: {x: 0.004353936, y: 0.057641193, z: 0.0025538327}
+      rotation: {x: -0.037734568, y: 0.09869339, z: 0.01784614, w: 0.99424213}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: RingIntermediate_L
+      parentName: RingProximal_L
+      position: {x: -0.00000009452924, y: 0.022696275, z: -0.00000038021244}
+      rotation: {x: 0.028752092, y: -0.036247868, z: 0.029820526, w: 0.99848396}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: RingDistal_L
+      parentName: RingIntermediate_L
+      position: {x: 0.00000008707866, y: 0.015525539, z: 0.00000053975964}
+      rotation: {x: 0.017491812, y: -0.018839572, z: 0.0020648893, w: 0.9996674}
+      scale: {x: 1.0000002, y: 0.99999964, z: 0.99999976}
+    - name: LittleProximal_L
+      parentName: Hand_L
+      position: {x: 0.015355428, y: 0.054332092, z: -0.0019769522}
+      rotation: {x: -0.042443585, y: 0.21916193, z: 0.017018633, w: 0.9746163}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: LittleIntermediate_L
+      parentName: LittleProximal_L
+      position: {x: -0.0000000121071935, y: 0.017650723, z: -0.00000019045547}
+      rotation: {x: 0.021786438, y: -0.03365598, z: 0.030489815, w: 0.9987307}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: LittleDistal_L
+      parentName: LittleIntermediate_L
+      position: {x: 0.0000000055879354, y: 0.012433999, z: 0.0000004461035}
+      rotation: {x: 0.02412225, y: -0.032923684, z: 0.02266058, w: 0.9989098}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: LowerArm_twist_L
+      parentName: LowerArm_L
+      position: {x: -0.0000000026775524, y: 0.18335097, z: -0.00000079860195}
+      rotation: {x: 0.00035421955, y: -0.000000018753125, z: -0.021303557, w: 0.999773}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1}
+    - name: UpperArm_twist_L
+      parentName: UpperArm_L
+      position: {x: 7.5715434e-11, y: 0.17861232, z: 0.000000023873293}
+      rotation: {x: -0.0000009708319, y: 0.0000002792863, z: 0.009714551, w: 0.99995285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_R
+      parentName: Chest
+      position: {x: 0.039076414, y: 0.12651093, z: -0.00430435}
+      rotation: {x: -0.42778844, y: -0.4277884, z: -0.56302494, w: 0.56302494}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: UpperArm_R
+      parentName: Shoulder_R
+      position: {x: 0.000000010127197, y: 0.036755722, z: -0.0000000144384025}
+      rotation: {x: 0.000000993195, y: 0.0000010661915, z: 0.0097146295, w: 0.99995285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_R
+      parentName: UpperArm_R
+      position: {x: -0.000000001007038, y: 0.17861232, z: 0.000000023873293}
+      rotation: {x: -0.00035124717, y: -0.0003362363, z: -0.03101513, w: 0.9995188}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: Hand_R
+      parentName: LowerArm_R
+      position: {x: 0.0000000057625584, y: 0.18335094, z: -0.00000091778315}
+      rotation: {x: 0.00034700477, y: 0.00033861, z: 0.021303667, w: 0.99977297}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000001}
+    - name: ThumbProximal_R
+      parentName: Hand_R
+      position: {x: 0.015829789, y: 0.017383082, z: -0.007423264}
+      rotation: {x: 0.37625495, y: 0.91496813, z: -0.08831394, w: 0.11604401}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: ThumbIntermediate_R
+      parentName: ThumbProximal_R
+      position: {x: 0.00000011641532, y: 0.021940788, z: 0.00000005844049}
+      rotation: {x: -0.010611257, y: 0.03755241, z: -0.034490246, w: 0.998643}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: ThumbDistal_R
+      parentName: ThumbIntermediate_R
+      position: {x: -0.00000013702083, y: 0.01757995, z: 0.0000001238659}
+      rotation: {x: -0.012906144, y: -0.00094422046, z: 0.0027718125, w: 0.99991244}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+    - name: IndexProximal_R
+      parentName: Hand_R
+      position: {x: 0.018184062, y: 0.059868857, z: 0.0017712195}
+      rotation: {x: -0.024973225, y: 0.033237774, z: -0.0033795983, w: 0.9991297}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: IndexIntermediate_R
+      parentName: IndexProximal_R
+      position: {x: -0.000000027008355, y: 0.021937126, z: -0.00000023469329}
+      rotation: {x: 0.012622938, y: 0.012533853, z: 0.004794782, w: 0.9998303}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: IndexDistal_R
+      parentName: IndexIntermediate_R
+      position: {x: 0.000000023283064, y: 0.014565088, z: -0.00000014645047}
+      rotation: {x: 0.024803758, y: 0.023599898, z: -0.0021977897, w: 0.99941134}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999996}
+    - name: MiddleProximal_R
+      parentName: Hand_R
+      position: {x: 0.0063496195, y: 0.059662983, z: 0.0047273734}
+      rotation: {x: -0.03582316, y: -0.054714374, z: -0.015835466, w: 0.99773365}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: MiddleIntermediate_R
+      parentName: MiddleProximal_R
+      position: {x: -0.000000037718564, y: 0.025156766, z: -0.0000004848116}
+      rotation: {x: 0.02158268, y: 0.022454042, z: -0.0056366785, w: 0.999499}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: MiddleDistal_R
+      parentName: MiddleIntermediate_R
+      position: {x: 0.000000019092113, y: 0.016467016, z: -0.0000001473818}
+      rotation: {x: 0.0035576597, y: 0.0036053872, z: 0.000548825, w: 0.99998707}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: RingProximal_R
+      parentName: Hand_R
+      position: {x: -0.004353937, y: 0.057641193, z: 0.0025538327}
+      rotation: {x: -0.03773304, y: -0.09869368, z: -0.01784585, w: 0.9942421}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: RingIntermediate_R
+      parentName: RingProximal_R
+      position: {x: 0.00000009359792, y: 0.02269635, z: -0.00000048207585}
+      rotation: {x: 0.028754637, y: 0.036247894, z: -0.029823009, w: 0.9984838}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: RingDistal_R
+      parentName: RingIntermediate_R
+      position: {x: -0.00000008754432, y: 0.015525613, z: 0.00000042578904}
+      rotation: {x: 0.017491812, y: 0.018839572, z: -0.0020648907, w: 0.9996674}
+      scale: {x: 1.0000002, y: 0.99999964, z: 0.9999998}
+    - name: LittleProximal_R
+      parentName: Hand_R
+      position: {x: -0.015355427, y: 0.054332092, z: -0.0019769522}
+      rotation: {x: -0.042448685, y: -0.21916151, z: -0.017017186, w: 0.97461617}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: LittleIntermediate_R
+      parentName: LittleProximal_R
+      position: {x: 0.000000016763806, y: 0.017650632, z: -0.0000001383014}
+      rotation: {x: 0.021786444, y: 0.033656005, z: -0.030489827, w: 0.9987307}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: LittleDistal_R
+      parentName: LittleIntermediate_R
+      position: {x: -0.000000056810677, y: 0.012434056, z: 0.00000044889748}
+      rotation: {x: 0.024122255, y: 0.032923676, z: -0.022660559, w: 0.9989098}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: LowerArm_twist_R
+      parentName: LowerArm_R
+      position: {x: 0.000000004947651, y: 0.18335097, z: -0.0000009177536}
+      rotation: {x: 0.00035421824, y: 0.000000004150696, z: 0.021303557, w: 0.999773}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: UpperArm_twist_R
+      parentName: UpperArm_R
+      position: {x: -0.000000001007038, y: 0.17861232, z: 0.000000023873293}
+      rotation: {x: -0.0000010061063, y: -0.000000266688, z: -0.009714716, w: 0.99995285}
+      scale: {x: 0.99999964, y: 0.99999976, z: 0.9999996}
+    - name: Breast_L
+      parentName: Chest
+      position: {x: -0.033462647, y: 0.06789776, z: 0.014916878}
+      rotation: {x: -0.05177189, y: 0.59494567, z: 0.797216, w: 0.08835142}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: Breast_L.001
+      parentName: Breast_L
+      position: {x: -0.0000000037252903, y: 0.08389731, z: 0.0000000017462298}
+      rotation: {x: -0.69138396, y: 0.1560312, z: 0.7037306, w: -0.04904944}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999996}
+    - name: Breast_L.001_end
+      parentName: Breast_L.001
+      position: {x: -0.000000035157427, y: 0.057585552, z: 0.0000000018626451}
+      rotation: {x: 0.00000013387768, y: 0.00000012712556, z: -0.0000058063324, w: 1}
+      scale: {x: 0.9999998, y: 0.9999995, z: 0.9999998}
+    - name: Breast_R
+      parentName: Chest
+      position: {x: 0.033462644, y: 0.06789776, z: 0.014916878}
+      rotation: {x: 0.05177149, y: 0.5949456, z: 0.79721606, w: -0.088351704}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Breast_R.001
+      parentName: Breast_R
+      position: {x: -0, y: 0.08389732, z: 0.000000035041012}
+      rotation: {x: 0.69138354, y: 0.15603042, z: 0.7037312, w: 0.049048647}
+      scale: {x: 0.9999997, y: 1.0000002, z: 0.999999}
+    - name: Breast_R.001_end
+      parentName: Breast_R.001
+      position: {x: 0.000000034226105, y: 0.057585675, z: 0.000000011175871}
+      rotation: {x: 0.000000006053599, y: -0.00000067101803, z: 0.0000025946658, w: 1}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.99999994}
+    - name: EvilFallJacket
+      parentName: Chest
+      position: {x: -7.9650664e-17, y: 0.01231158, z: -0.026249623}
+      rotation: {x: 0.1453902, y: -0.000000117942626, z: -0.000000017331864, w: 0.9893744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.002
+      parentName: EvilFallJacket
+      position: {x: -0.000000018623023, y: 0.03905727, z: -0.078110605}
+      rotation: {x: 0.9999474, y: 0.000000001222462, z: -0.00000011920304, w: 0.010254756}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: EvilFallJacket.003
+      parentName: EvilFallJacket.002
+      position: {x: -2.1175824e-22, y: 0.03800001, z: 0.0000000064462995}
+      rotation: {x: -0.000000034458942, y: -7.1054274e-15, z: -8.881786e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.004
+      parentName: EvilFallJacket.003
+      position: {x: -9.8769906e-24, y: 0.032000024, z: 0.000000012032004}
+      rotation: {x: -0.00000011641531, y: -8.933571e-23, z: -6.617483e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.L.004
+      parentName: EvilFallJacket
+      position: {x: -0.090374425, y: 0.04118318, z: -0.0057719625}
+      rotation: {x: 0.7264691, y: -0.0070467694, z: -0.68712264, w: 0.007449939}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: EvilFallJacket.L.006
+      parentName: EvilFallJacket.L.004
+      position: {x: 1.1525003e-10, y: 0.037999988, z: -0.0000000010972645}
+      rotation: {x: -0.0000000028894411, y: -0.0000000018626454, z: 0.000000007913289,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.L.008
+      parentName: EvilFallJacket.L.006
+      position: {x: -6.298251e-11, y: 0.032000065, z: 0.0000000011126886}
+      rotation: {x: 5.520805e-11, y: -0.000000001862645, z: -9.909509e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.R.004
+      parentName: EvilFallJacket
+      position: {x: 0.090374425, y: 0.04118318, z: -0.0057720053}
+      rotation: {x: 0.7264693, y: 0.007046853, z: 0.68712246, w: 0.007449854}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: EvilFallJacket.R.006
+      parentName: EvilFallJacket.R.004
+      position: {x: -2.5957547e-10, y: 0.038000047, z: 0.0000000049380606}
+      rotation: {x: 0.0000000019925555, y: 0.0000000018626446, z: -0.000000008185285,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.R.008
+      parentName: EvilFallJacket.R.006
+      position: {x: -5.3432814e-11, y: 0.032000065, z: 0.0000000010981394}
+      rotation: {x: 5.5207068e-11, y: -1.4704164e-16, z: 9.90946e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacket.L.005
+      parentName: EvilFallJacket
+      position: {x: -0.097493425, y: 0.044222824, z: 0.06845144}
+      rotation: {x: -0.44743463, y: 0.009170842, z: 0.89425784, w: -0.0045885164}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: EvilFallJacket.L.007
+      parentName: EvilFallJacket.L.005
+      position: {x: -8.402452e-10, y: 0.037999965, z: 0.000000012857271}
+      rotation: {x: 0.000000018703641, y: 0.0000000372529, z: 0.000000029044251, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: EvilFallJacket.L.009
+      parentName: EvilFallJacket.L.007
+      position: {x: 0.0000000023358524, y: 0.031999867, z: 0.0000000060085554}
+      rotation: {x: 0.00000006979821, y: 0.000000014901163, z: 0.000000093170485,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: EvilFallJacket.R.005
+      parentName: EvilFallJacket
+      position: {x: 0.097493455, y: 0.044222824, z: 0.0684514}
+      rotation: {x: 0.4474349, y: 0.009170848, z: 0.8942578, w: 0.0045885067}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: EvilFallJacket.R.007
+      parentName: EvilFallJacket.R.005
+      position: {x: -0.000000003172218, y: 0.037999906, z: -6.909886e-10}
+      rotation: {x: 0.000000022058497, y: -0.000000014901165, z: -0.000000025367267,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: EvilFallJacket.R.009
+      parentName: EvilFallJacket.R.007
+      position: {x: -0.000000006061171, y: 0.031999927, z: 0.0000000022832367}
+      rotation: {x: 0.00000006979823, y: -0.000000014901163, z: -0.0000000931705,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: EvilFallJacketAcc
+      parentName: Chest
+      position: {x: -7.519914e-17, y: 0.15105037, z: 0.010741472}
+      rotation: {x: -0.6049841, y: 2.1117699e-22, z: 1.550615e-15, w: 0.7962376}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: EvilFallJacketAcc.M
+      parentName: EvilFallJacketAcc
+      position: {x: -1.5682555e-26, y: 0.083655894, z: 0.0007084657}
+      rotation: {x: -0.7071066, y: -5.6150854e-23, z: 9.3584816e-23, w: 0.70710695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.001
+      parentName: EvilFallJacketAcc.M
+      position: {x: -3.2802887e-24, y: 0.03240256, z: -0.000000009301431}
+      rotation: {x: -0.000000044086363, y: -1.1110639e-29, z: 1.1832918e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.005
+      parentName: EvilFallJacketAcc.M.001
+      position: {x: -2.362733e-25, y: 0.04, z: -0.000000008273389}
+      rotation: {x: -0.00000009313247, y: 2.8105788e-30, z: 5.3889363e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.003
+      parentName: EvilFallJacketAcc.M.005
+      position: {x: -5.0097874e-25, y: 0.040000044, z: -0.0000000025850682}
+      rotation: {x: -1.7763568e-14, y: 4.6841806e-30, z: 1.643291e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.007
+      parentName: EvilFallJacketAcc.M.003
+      position: {x: -7.6567155e-25, y: 0.040000103, z: -0.000000008843585}
+      rotation: {x: 0.000000093132485, y: 3.5994833e-30, z: 1.682736e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.002
+      parentName: EvilFallJacketAcc.M.007
+      position: {x: -1.0303912e-24, y: 0.03999994, z: -0.0000000046971707}
+      rotation: {x: -2.7000624e-13, y: 1.725901e-30, z: 5.783363e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.006
+      parentName: EvilFallJacketAcc.M.002
+      position: {x: -1.2950856e-24, y: 0.03999994, z: -0.0000000035055336}
+      rotation: {x: -0.000000093132215, y: 2.8106585e-30, z: 5.3888212e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.004
+      parentName: EvilFallJacketAcc.M.006
+      position: {x: -1.559791e-24, y: 0.039999984, z: -0.0000000052672817}
+      rotation: {x: 1.2789769e-13, y: 4.6841716e-30, z: 1.6432919e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.008
+      parentName: EvilFallJacketAcc.M.004
+      position: {x: -1.8244964e-24, y: 0.039999984, z: -0.000000004074991}
+      rotation: {x: 0.000000093132066, y: 3.5994653e-30, z: 1.6827384e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc.M.009
+      parentName: EvilFallJacketAcc.M.008
+      position: {x: -2.0891908e-24, y: 0.04, z: -0.000000007379839}
+      rotation: {x: -0.000000037252725, y: 4.6841987e-30, z: 8.149839e-30, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: EvilFallJacketAcc.M.010
+      parentName: EvilFallJacketAcc.M.009
+      position: {x: -2.750971e-24, y: 0.099999934, z: 0.0000000033597445}
+      rotation: {x: -0.00000002483521, y: 1.1192241e-29, z: 2.3649502e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.L
+      parentName: EvilFallJacketAcc
+      position: {x: -0.06412874, y: 0.0773292, z: 0.0076267766}
+      rotation: {x: -0.6961396, y: 0.11389233, z: 0.124054864, w: 0.69787437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.L.001
+      parentName: EvilFallJacketAcc2.L
+      position: {x: -0.000000039930455, y: 0.026436716, z: 0.000000011525117}
+      rotation: {x: -0.034027312, y: -0.0002598486, z: 0.008102813, w: 0.99938804}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: EvilFallJacketAcc2.L.005
+      parentName: EvilFallJacketAcc2.L.001
+      position: {x: 0.000000028871, y: 0.039743155, z: -0.0000000013969839}
+      rotation: {x: 0.0000000067520887, y: -0.00000007357448, z: 0.00000008859206,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.L.003
+      parentName: EvilFallJacketAcc2.L.005
+      position: {x: -0.000000007450581, y: 0.039743043, z: -0.0000000041909516}
+      rotation: {x: -0.0000000081490725, y: 0.000000074505806, z: -0.00000010052463,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.L.007
+      parentName: EvilFallJacketAcc2.L.003
+      position: {x: -0.0000000026775524, y: 0.03974306, z: -0.0000000023283064}
+      rotation: {x: 0.0000000041909516, y: 2.3283062e-10, z: 0.000000008963981, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc2.L.002
+      parentName: EvilFallJacketAcc2.L.007
+      position: {x: 0.000000040861778, y: 0.039743166, z: -0.0000000041909516}
+      rotation: {x: -0.0000000023283069, y: 0.000000070547685, z: -0.000000070780516,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc2.L.006
+      parentName: EvilFallJacketAcc2.L.002
+      position: {x: 0.000000024447218, y: 0.039743006, z: 0.0000000037252903}
+      rotation: {x: 0.000000007450581, y: -0.000000144355, z: 0.00000018320863, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc2.L.004
+      parentName: EvilFallJacketAcc2.L.006
+      position: {x: 0.0000000022118911, y: 0.03974304, z: 0.0000000013969839}
+      rotation: {x: 0.000000007450581, y: 4.656613e-10, z: -0.000000020983862, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.L.008
+      parentName: EvilFallJacketAcc2.L.004
+      position: {x: -0.000000036263373, y: 0.039743025, z: 0.0000000037252903}
+      rotation: {x: -0.000000010943042, y: 0.00000044819905, z: -0.00000043137703,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: EvilFallJacketAcc2.L.009
+      parentName: EvilFallJacketAcc2.L.008
+      position: {x: -1.7462298e-10, y: 0.039743032, z: 4.656613e-10}
+      rotation: {x: -0.01638057, y: -0.00019830061, z: 0.0041521857, w: 0.9998572}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: EvilFallJacketAcc2.L.010
+      parentName: EvilFallJacketAcc2.L.009
+      position: {x: -0.0000000030267984, y: 0.09228911, z: -0.0000000013969839}
+      rotation: {x: 0.0071650944, y: -0.004063692, z: 0.042722266, w: 0.99905306}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: EvilFallJacketAcc1.L
+      parentName: EvilFallJacketAcc
+      position: {x: -0.028940395, y: 0.08577685, z: -0.0017362783}
+      rotation: {x: -0.70495003, y: 0.055184204, z: 0.055184256, w: 0.70495033}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc1.L.001
+      parentName: EvilFallJacketAcc1.L
+      position: {x: 0.000000021666104, y: 0.027986033, z: -0.000000009762677}
+      rotation: {x: -0.028422492, y: -0.00028081227, z: 0.009875991, w: 0.9995472}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: EvilFallJacketAcc1.L.005
+      parentName: EvilFallJacketAcc1.L.001
+      position: {x: 0.000000015962183, y: 0.039899856, z: 0.0000000020081643}
+      rotation: {x: 0.00000009909855, y: 0.00000008683947, z: -0.000000041841446,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc1.L.003
+      parentName: EvilFallJacketAcc1.L.005
+      position: {x: 0.0000000023863356, y: 0.039899774, z: -5.820766e-10}
+      rotation: {x: -0.000000041356547, y: -0.00000017692074, z: 0.00000013721618,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: EvilFallJacketAcc1.L.007
+      parentName: EvilFallJacketAcc1.L.003
+      position: {x: 0.000000006331149, y: 0.039899684, z: -0.0000000011641532}
+      rotation: {x: -0.00000004886533, y: 0.00000017385456, z: -0.00000012148237,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc1.L.002
+      parentName: EvilFallJacketAcc1.L.007
+      position: {x: 0.000000014482591, y: 0.039899807, z: 1.7462298e-10}
+      rotation: {x: -0.0000000020372684, y: -8.6542873e-10, z: 0.000000004153096,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallJacketAcc1.L.006
+      parentName: EvilFallJacketAcc1.L.002
+      position: {x: 0.0000000074056725, y: 0.039899774, z: -0.0000000047148205}
+      rotation: {x: 0.00000005267794, y: -0.0000001729656, z: 0.00000013732202, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallJacketAcc1.L.004
+      parentName: EvilFallJacketAcc1.L.006
+      position: {x: 0.0000000010601884, y: 0.039899647, z: -0.000000004307367}
+      rotation: {x: 0.000000044121407, y: 0.00000017734178, z: -0.00000012138992,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc1.L.008
+      parentName: EvilFallJacketAcc1.L.004
+      position: {x: 0.000000007241403, y: 0.039899778, z: -0.0000000016880222}
+      rotation: {x: -0.00000009115321, y: -0.0000000041227826, z: 0.000000004060456,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallJacketAcc1.L.009
+      parentName: EvilFallJacketAcc1.L.008
+      position: {x: -0.0000000068535284, y: 0.03989967, z: -0.0000000016880222}
+      rotation: {x: 0.017057337, y: -0.00032818993, z: 0.028973658, w: 0.9994346}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+    - name: EvilFallJacketAcc1.L.010
+      parentName: EvilFallJacketAcc1.L.009
+      position: {x: 0.000000027132046, y: 0.09917654, z: -0.0000000026484486}
+      rotation: {x: 0.011316511, y: -0.0017854711, z: 0.040040854, w: 0.9991324}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: EvilFallJacketAcc1.R
+      parentName: EvilFallJacketAcc
+      position: {x: 0.028940395, y: 0.08577685, z: -0.0017362783}
+      rotation: {x: -0.70495003, y: -0.055184204, z: -0.055184256, w: 0.70495033}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc1.R.001
+      parentName: EvilFallJacketAcc1.R
+      position: {x: -0.000000021666104, y: 0.027986033, z: -0.000000009762677}
+      rotation: {x: -0.028422492, y: 0.00028081227, z: -0.009875991, w: 0.9995472}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: EvilFallJacketAcc1.R.005
+      parentName: EvilFallJacketAcc1.R.001
+      position: {x: -0.000000015962183, y: 0.039899856, z: 0.0000000020081643}
+      rotation: {x: 0.00000009909855, y: -0.00000008683947, z: 0.000000041841446,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc1.R.003
+      parentName: EvilFallJacketAcc1.R.005
+      position: {x: -0.0000000023863356, y: 0.039899774, z: -5.820766e-10}
+      rotation: {x: -0.000000041356547, y: 0.00000017692074, z: -0.00000013721618,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: EvilFallJacketAcc1.R.007
+      parentName: EvilFallJacketAcc1.R.003
+      position: {x: -0.000000006331149, y: 0.039899684, z: -0.0000000011641532}
+      rotation: {x: -0.00000004886533, y: -0.00000017385456, z: 0.00000012148237,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc1.R.002
+      parentName: EvilFallJacketAcc1.R.007
+      position: {x: -0.000000014482591, y: 0.039899807, z: 1.7462298e-10}
+      rotation: {x: -0.0000000020372684, y: 8.6542873e-10, z: -0.000000004153096,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallJacketAcc1.R.006
+      parentName: EvilFallJacketAcc1.R.002
+      position: {x: -0.0000000074056725, y: 0.039899774, z: -0.0000000047148205}
+      rotation: {x: 0.00000005267794, y: 0.0000001729656, z: -0.00000013732202, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallJacketAcc1.R.004
+      parentName: EvilFallJacketAcc1.R.006
+      position: {x: -0.0000000010601884, y: 0.039899647, z: -0.000000004307367}
+      rotation: {x: 0.000000044121407, y: -0.00000017734178, z: 0.00000012138992,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc1.R.008
+      parentName: EvilFallJacketAcc1.R.004
+      position: {x: -0.000000007241403, y: 0.039899778, z: -0.0000000016880222}
+      rotation: {x: -0.00000009115321, y: 0.0000000041227826, z: -0.000000004060456,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallJacketAcc1.R.009
+      parentName: EvilFallJacketAcc1.R.008
+      position: {x: 0.0000000068535284, y: 0.03989967, z: -0.0000000016880222}
+      rotation: {x: 0.017057337, y: 0.00032818993, z: -0.028973658, w: 0.9994346}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+    - name: EvilFallJacketAcc1.R.010
+      parentName: EvilFallJacketAcc1.R.009
+      position: {x: -0.000000027132046, y: 0.09917654, z: -0.0000000026484486}
+      rotation: {x: 0.011316511, y: 0.0017854711, z: -0.040040854, w: 0.9991324}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: EvilFallJacketAcc2.R
+      parentName: EvilFallJacketAcc
+      position: {x: 0.06412874, y: 0.0773292, z: 0.0076267766}
+      rotation: {x: -0.6961396, y: -0.11389233, z: -0.124054864, w: 0.69787437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.R.001
+      parentName: EvilFallJacketAcc2.R
+      position: {x: 0.000000039930455, y: 0.026436716, z: 0.000000011525117}
+      rotation: {x: -0.034027312, y: 0.0002598486, z: -0.008102813, w: 0.99938804}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: EvilFallJacketAcc2.R.005
+      parentName: EvilFallJacketAcc2.R.001
+      position: {x: -0.000000028871, y: 0.039743155, z: -0.0000000013969839}
+      rotation: {x: 0.0000000067520887, y: 0.00000007357448, z: -0.00000008859206,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.R.003
+      parentName: EvilFallJacketAcc2.R.005
+      position: {x: 0.000000007450581, y: 0.039743043, z: -0.0000000041909516}
+      rotation: {x: -0.0000000081490725, y: -0.000000074505806, z: 0.00000010052463,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.R.007
+      parentName: EvilFallJacketAcc2.R.003
+      position: {x: 0.0000000026775524, y: 0.03974306, z: -0.0000000023283064}
+      rotation: {x: 0.0000000041909516, y: -2.3283062e-10, z: -0.000000008963981,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc2.R.002
+      parentName: EvilFallJacketAcc2.R.007
+      position: {x: -0.000000040861778, y: 0.039743166, z: -0.0000000041909516}
+      rotation: {x: -0.0000000023283069, y: -0.000000070547685, z: 0.000000070780516,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc2.R.006
+      parentName: EvilFallJacketAcc2.R.002
+      position: {x: -0.000000024447218, y: 0.039743006, z: 0.0000000037252903}
+      rotation: {x: 0.000000007450581, y: 0.000000144355, z: -0.00000018320863, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallJacketAcc2.R.004
+      parentName: EvilFallJacketAcc2.R.006
+      position: {x: -0.0000000022118911, y: 0.03974304, z: 0.0000000013969839}
+      rotation: {x: 0.000000007450581, y: -4.656613e-10, z: 0.000000020983862, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallJacketAcc2.R.008
+      parentName: EvilFallJacketAcc2.R.004
+      position: {x: 0.000000036263373, y: 0.039743025, z: 0.0000000037252903}
+      rotation: {x: -0.000000010943042, y: -0.00000044819905, z: 0.00000043137703,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: EvilFallJacketAcc2.R.009
+      parentName: EvilFallJacketAcc2.R.008
+      position: {x: 1.7462298e-10, y: 0.039743032, z: 4.656613e-10}
+      rotation: {x: -0.01638057, y: 0.00019830061, z: -0.0041521857, w: 0.9998572}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: EvilFallJacketAcc2.R.010
+      parentName: EvilFallJacketAcc2.R.009
+      position: {x: 0.0000000030267984, y: 0.09228911, z: -0.0000000013969839}
+      rotation: {x: 0.0071650944, y: 0.004063692, z: -0.042722266, w: 0.99905306}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: EvilFallChestTube
+      parentName: Chest
+      position: {x: -7.519914e-17, y: 0.15105037, z: 0.010741472}
+      rotation: {x: 0.9356592, y: 7.5276067e-16, z: -1.4074269e-15, w: -0.35290495}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: EvilFallChestTube.L
+      parentName: EvilFallChestTube
+      position: {x: -1.0339758e-23, y: 0.07679201, z: -0.0000000055879354}
+      rotation: {x: -0.07742317, y: 0.005290384, z: 0.2953595, w: 0.9522292}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallChestTube.L.001
+      parentName: EvilFallChestTube.L
+      position: {x: -0.00000003306195, y: 0.02829824, z: 0.000000026193447}
+      rotation: {x: -0.3550084, y: 0.020134514, z: 0.25115538, w: 0.9002692}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: EvilFallChestTube.L.002
+      parentName: EvilFallChestTube.L.001
+      position: {x: -0.000000013911631, y: 0.08487901, z: -0.000000019557774}
+      rotation: {x: -0.46389288, y: 0.27788863, z: -0.027994758, w: 0.84071255}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: EvilFallChestTube.L.003
+      parentName: EvilFallChestTube.L.002
+      position: {x: -0.00000004749745, y: 0.072332546, z: 0.000000070547685}
+      rotation: {x: -0.45681298, y: 0.10529823, z: -0.14856254, w: 0.87072575}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: EvilFallChestTube.L.004
+      parentName: EvilFallChestTube.L.003
+      position: {x: -0.000000055879354, y: 0.06243074, z: 0.000000048894435}
+      rotation: {x: -0.5323528, y: 0.16215062, z: -0.5447002, w: 0.62738293}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: EvilFallChestTube.R
+      parentName: EvilFallChestTube
+      position: {x: -1.0339758e-23, y: 0.07679201, z: -0.0000000055879354}
+      rotation: {x: -0.07742317, y: -0.005290384, z: -0.2953595, w: 0.9522292}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallChestTube.R.001
+      parentName: EvilFallChestTube.R
+      position: {x: 0.00000003306195, y: 0.02829824, z: 0.000000026193447}
+      rotation: {x: -0.3550084, y: -0.020134514, z: -0.25115538, w: 0.9002692}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: EvilFallChestTube.R.002
+      parentName: EvilFallChestTube.R.001
+      position: {x: 0.000000013911631, y: 0.08487901, z: -0.000000019557774}
+      rotation: {x: -0.46389288, y: -0.27788863, z: 0.027994758, w: 0.84071255}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: EvilFallChestTube.R.003
+      parentName: EvilFallChestTube.R.002
+      position: {x: 0.00000004749745, y: 0.072332546, z: 0.000000070547685}
+      rotation: {x: -0.45681298, y: -0.10529823, z: 0.14856254, w: 0.87072575}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: EvilFallChestTube.R.004
+      parentName: EvilFallChestTube.R.003
+      position: {x: 0.000000055879354, y: 0.06243074, z: 0.000000048894435}
+      rotation: {x: -0.5323528, y: -0.16215062, z: 0.5447002, w: 0.62738293}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: GasTubeMain
+      parentName: Chest
+      position: {x: -1.5852325e-16, y: 0.14578992, z: -0.042834394}
+      rotation: {x: 0.3410445, y: -0.00000011206239, z: -0.00000004065567, w: 0.94004714}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: UpperLeg_L
+      parentName: Hips
+      position: {x: -0.055199455, y: -0.07052994, z: -0.01151651}
+      rotation: {x: 0.9999867, y: 6.155169e-10, z: -0.000000119207726, w: -0.0051543047}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: LowerLeg_L
+      parentName: UpperLeg_L
+      position: {x: -0.0000000031462122, y: 0.28348118, z: 0.0000000015190453}
+      rotation: {x: 0.028081695, y: 0.0000005570847, z: -0.00000044584726, w: 0.99960566}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Foot_L
+      parentName: LowerLeg_L
+      position: {x: 0.0000000124567965, y: 0.33596417, z: -0.0000000059767977}
+      rotation: {x: -0.53349614, y: -0.0000006041856, z: 0.00000015881493, w: 0.8458025}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toe_L
+      parentName: Foot_L
+      position: {x: -3.5935144e-10, y: 0.09360828, z: -0.0000000034765921}
+      rotation: {x: -0.23556243, y: -0.000001083178, z: 0.00000028408013, w: 0.9718592}
+      scale: {x: 1, y: 0.99999964, z: 0.9999995}
+    - name: UpperLeg_R
+      parentName: Hips
+      position: {x: 0.055199455, y: -0.07052994, z: -0.01151651}
+      rotation: {x: 0.9999867, y: -6.155169e-10, z: 0.000000119207726, w: -0.0051543047}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: LowerLeg_R
+      parentName: UpperLeg_R
+      position: {x: 0.0000000031462122, y: 0.28348118, z: 0.0000000015190453}
+      rotation: {x: 0.028081695, y: -0.0000005570847, z: 0.00000044584726, w: 0.99960566}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Foot_R
+      parentName: LowerLeg_R
+      position: {x: -0.0000000124567965, y: 0.33596417, z: -0.0000000059767977}
+      rotation: {x: -0.53349614, y: 0.0000006041856, z: -0.00000015881493, w: 0.8458025}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Toe_R
+      parentName: Foot_R
+      position: {x: 3.5935144e-10, y: 0.09360828, z: -0.0000000034765921}
+      rotation: {x: -0.23556243, y: 0.000001083178, z: -0.00000028408013, w: 0.9718592}
+      scale: {x: 1, y: 0.99999964, z: 0.9999995}
+    - name: Butt_L
+      parentName: Hips
+      position: {x: -0.050262485, y: -0.04934895, z: -0.034147594}
+      rotation: {x: -0.81881833, y: 0.080974676, z: 0.08097479, w: 0.56251466}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Butt_L_end
+      parentName: Butt_L
+      position: {x: 0.000000018626451, y: 0.047021076, z: 0.00000017229468}
+      rotation: {x: 0.9246427, y: -0.045383696, z: -0.33965614, w: 0.16616252}
+      scale: {x: 1, y: 0.9999999, z: 0.9999985}
+    - name: Butt_R
+      parentName: Hips
+      position: {x: 0.050262485, y: -0.04934895, z: -0.034147594}
+      rotation: {x: -0.81881833, y: -0.080974676, z: -0.08097479, w: 0.56251466}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Butt_R_end
+      parentName: Butt_R
+      position: {x: -0.000000015832484, y: 0.04702107, z: 0.00000016856939}
+      rotation: {x: 0.92464244, y: 0.04538329, z: 0.33965713, w: 0.16616178}
+      scale: {x: 1, y: 0.99999976, z: 0.99999887}
+    - name: EvilFallTail
+      parentName: Hips
+      position: {x: -0, y: 0.0008597004, z: -0.16610757}
+      rotation: {x: 0.9999988, y: -1.8372896e-10, z: -0.00000011920914, w: 0.0015412126}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: EvilFallTail.001
+      parentName: EvilFallTail
+      position: {x: -2.6844863e-15, y: 0.044073444, z: -0.000000011874363}
+      rotation: {x: 0.0015414826, y: -1.0658168e-14, z: -3.67518e-10, w: 0.9999988}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: EvilFallTail.002
+      parentName: EvilFallTail.001
+      position: {x: 5.786009e-16, y: 0.04000001, z: 0.000000002571042}
+      rotation: {x: 1.16301635e-10, y: 8.7984875e-24, z: 2.7414627e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.003
+      parentName: EvilFallTail.002
+      position: {x: 1.0492971e-15, y: 0.04000001, z: 0.0000000047082835}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853837e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.004
+      parentName: EvilFallTail.003
+      position: {x: 1.5200305e-15, y: 0.04000001, z: 0.000000006682697}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853837e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.005
+      parentName: EvilFallTail.004
+      position: {x: 1.9907673e-15, y: 0.04000001, z: 0.000000008657096}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853837e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.006
+      parentName: EvilFallTail.005
+      position: {x: -1.091213e-15, y: 0.04000001, z: -0.0000000042696655}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853837e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.007
+      parentName: EvilFallTail.006
+      position: {x: -6.204761e-16, y: 0.04000001, z: -0.000000002295252}
+      rotation: {x: 1.4210855e-13, y: 3.9000273e-24, z: -3.0555225e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.008
+      parentName: EvilFallTail.007
+      position: {x: -1.4971239e-16, y: 0.03999998, z: -3.2071057e-10}
+      rotation: {x: 0, y: 3.8992195e-24, z: -3.0795954e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.009
+      parentName: EvilFallTail.008
+      position: {x: 3.2102443e-16, y: 0.03999998, z: 0.0000000016536887}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853645e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.010
+      parentName: EvilFallTail.009
+      position: {x: 7.9176124e-16, y: 0.03999998, z: 0.0000000036281023}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853645e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.011
+      parentName: EvilFallTail.010
+      position: {x: 1.2624947e-15, y: 0.03999998, z: 0.0000000056025016}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853645e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.012
+      parentName: EvilFallTail.011
+      position: {x: 1.7332298e-15, y: 0.03999998, z: 0.000000007576901}
+      rotation: {x: 0, y: 3.9000273e-24, z: 3.0853645e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.013
+      parentName: EvilFallTail.012
+      position: {x: -1.3487488e-15, y: 0.03999998, z: -0.000000005349854}
+      rotation: {x: -0.000000020696092, y: 3.900834e-24, z: 4.9343388e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallTail.014
+      parentName: EvilFallTail.013
+      position: {x: 6.9624785e-16, y: 0.09000002, z: 0.0000000032274947}
+      rotation: {x: 0.00000002069612, y: 3.3995984e-24, z: -4.9343417e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallDress.L.001
+      parentName: Hips
+      position: {x: -0.09354829, y: 0.023760075, z: -0.004373189}
+      rotation: {x: 0.66889685, y: -0.22105297, z: -0.58916986, w: -0.39571637}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: EvilFallDress.L.002
+      parentName: EvilFallDress.L.001
+      position: {x: 0.0000000018626451, y: 0.028790016, z: -0.000000039231963}
+      rotation: {x: 0.039352786, y: 0.003106607, z: 0.026831752, w: 0.99886024}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: EvilFallDress.R.001
+      parentName: Hips
+      position: {x: 0.09354829, y: 0.023760075, z: -0.004373189}
+      rotation: {x: 0.66889685, y: 0.22105297, z: 0.58916986, w: -0.39571637}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: EvilFallDress.R.002
+      parentName: EvilFallDress.R.001
+      position: {x: -0.0000000018626451, y: 0.028790016, z: -0.000000039231963}
+      rotation: {x: 0.039352786, y: -0.003106607, z: -0.026831752, w: 0.99886024}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: EvilFallHipTube
+      parentName: Hips
+      position: {x: -3.584253e-18, y: 0.014018125, z: -0.067966506}
+      rotation: {x: 0.12460001, y: 0.00000011828028, z: 0.000000014853476, w: 0.99220705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallHipTube.L
+      parentName: EvilFallHipTube
+      position: {x: 2.7761998e-15, y: 0.02102977, z: -0.000000014901161}
+      rotation: {x: 0.08424944, y: -0.024245609, z: 0.46698365, w: 0.87990934}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: EvilFallHipTube.L.001
+      parentName: EvilFallHipTube.L
+      position: {x: -0.00000003958121, y: 0.055495072, z: -0.000000042724423}
+      rotation: {x: 0.35877717, y: -0.14149314, z: -0.05844836, w: 0.9207836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallHipTube.L.002
+      parentName: EvilFallHipTube.L.001
+      position: {x: -0.000000007450581, y: 0.07209544, z: 0.000000059604645}
+      rotation: {x: 0.6840923, y: 0.08909434, z: -0.0009851198, w: 0.723933}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: EvilFallHipTube.L.003
+      parentName: EvilFallHipTube.L.002
+      position: {x: -0.000000078231096, y: 0.10739745, z: -0.0000000018626451}
+      rotation: {x: 0.7388204, y: -0.006572703, z: 0.17308147, w: 0.6512635}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: EvilFallHipTube.R
+      parentName: EvilFallHipTube
+      position: {x: 2.5781491e-15, y: 0.02102977, z: -0.000000014901161}
+      rotation: {x: 0.084249526, y: 0.024245387, z: -0.4669836, w: 0.8799094}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: EvilFallHipTube.R.001
+      parentName: EvilFallHipTube.R
+      position: {x: 0.000000040512532, y: 0.055495, z: 0.000000016647391}
+      rotation: {x: 0.3587773, y: 0.14149319, z: 0.05844829, w: 0.9207836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EvilFallHipTube.R.002
+      parentName: EvilFallHipTube.R.001
+      position: {x: 0.000000037252903, y: 0.07209545, z: -0.0000000055879354}
+      rotation: {x: 0.6840923, y: -0.08909439, z: 0.0009851583, w: 0.723933}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: EvilFallHipTube.R.003
+      parentName: EvilFallHipTube.R.002
+      position: {x: 0.0000000037252903, y: 0.10739747, z: -0.000000013038516}
+      rotation: {x: 0.7388203, y: 0.006572702, z: -0.1730815, w: 0.65126354}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Manuka_body
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: 0.000000014901161, y: -0.00000022351742, z: -0.000000022351742}
+      rotation: {x: -0.7071069, y: 0.000000026341773, z: 0.000000015805062, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Body
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: 0.000000014901161, y: -0.00000022351742, z: -0.000000022351742}
+      rotation: {x: -0.7071069, y: 0.000000026341773, z: 0.000000015805062, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: EvilFallBlade
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0.9107902, z: -0.1905145}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main
+      parentName: EvilFallBlade
+      position: {x: -0, y: 0, z: -0.054509006}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainGun
+      parentName: Main
+      position: {x: -0, y: 0.23618042, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube
+      parentName: MainGun
+      position: {x: -0, y: -0.026442587, z: -0.06953319}
+      rotation: {x: 0.7071068, y: 0.00000003090862, z: 0.70710677, w: -0.00000003090862}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: WeaponTube.001
+      parentName: WeaponTube
+      position: {x: -0, y: 0.07145131, z: 0}
+      rotation: {x: 0, y: -0.000000015893256, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.002
+      parentName: WeaponTube.001
+      position: {x: -0, y: 0.080000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.003
+      parentName: WeaponTube.002
+      position: {x: -0, y: 0.080000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.004
+      parentName: WeaponTube.003
+      position: {x: -0, y: 0.07000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.005
+      parentName: WeaponTube.004
+      position: {x: -0, y: 0.08000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.006
+      parentName: WeaponTube.005
+      position: {x: -0, y: 0.08000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.007
+      parentName: WeaponTube.006
+      position: {x: -0, y: 0.07000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.008
+      parentName: WeaponTube.007
+      position: {x: -0, y: 0.07000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTube.009
+      parentName: WeaponTube.008
+      position: {x: -0, y: 0.07000005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WeaponTubeEnd
+      parentName: WeaponTube.009
+      position: {x: -0, y: 0.110000014, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBlade
+      parentName: MainGun
+      position: {x: -0, y: 0.45000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBladeSide
+      parentName: MainBlade
+      position: {x: -0, y: 0.17270106, z: 0.06856596}
+      rotation: {x: 0.42740935, y: -0.000000107772095, z: -0.000000050951137, w: 0.9040582}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: MainBladeSideEnd
+      parentName: MainBladeSide
+      position: {x: 6.217249e-15, y: 0.0386715, z: 0.000000052154064}
+      rotation: {x: 0.01674336, y: -0.00000011919265, z: -0.0000000059878946, w: 0.99985987}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: MainGunShield
+      parentName: MainGun
+      position: {x: -0, y: 0.28982013, z: 0.021391911}
+      rotation: {x: -0.000000005820765, y: 0.00000023841858, z: -1.3877786e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnalToyMain
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0.6454738, z: -0.0044210535}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnalToyBone
+      parentName: AnalToyMain
+      position: {x: -0, y: 0.012434515, z: 0.024071949}
+      rotation: {x: 0.7988205, y: -0.00000007171268, z: -0.00000009522683, w: 0.6015695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnalToyBone.001
+      parentName: AnalToyBone
+      position: {x: -4.440892e-16, y: 0.014984107, z: -0.0000000018626451}
+      rotation: {x: -0.004460373, y: 3.1080654e-15, z: 0.0000000010634357, w: 0.99999005}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: AnalToyBone.002
+      parentName: AnalToyBone.001
+      position: {x: -1.110223e-16, y: 0.014890762, z: -4.656613e-10}
+      rotation: {x: 0.0025162257, y: -7.993501e-15, z: -5.9991495e-10, w: 0.99999684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnalToyBone.003
+      parentName: AnalToyBone.002
+      position: {x: 4.2494595e-16, y: 0.0150728775, z: 0.0000000018044375}
+      rotation: {x: -0.0024181155, y: 1.8207664e-14, z: 5.7652366e-10, w: 0.9999971}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: AnalToyBone.004
+      parentName: AnalToyBone.003
+      position: {x: -1.6151006e-16, y: 0.0150869135, z: -6.9849193e-10}
+      rotation: {x: 0.0028640595, y: 1.9521387e-19, z: -6.8284334e-10, w: 0.9999959}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: AnalToyBone.005
+      parentName: AnalToyBone.004
+      position: {x: -3.2473414e-16, y: 0.014904056, z: -0.0000000013969839}
+      rotation: {x: -0.00020772219, y: 5.387547e-23, z: 4.9522997e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnalToyBone.006
+      parentName: AnalToyBone.005
+      position: {x: 1.1628964e-17, y: 0.014844769, z: 0}
+      rotation: {x: -0.002013084, y: 1.1102279e-14, z: 4.7995663e-10, w: 0.999998}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: AnalToyBone.007
+      parentName: AnalToyBone.006
+      position: {x: -4.2899932e-16, y: 0.015586596, z: 0}
+      rotation: {x: -0.015655473, y: -7.1018067e-15, z: 0.0000000037325565, w: 0.99987745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToyMain
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: 0.015423797, y: 0.05884034, z: -0.022968592}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToyMain
+      parentName: PussyToyMain
+      position: {x: 0.000000007450581, y: -0.02339951, z: 0.668355}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToyMain.001
+      parentName: PussyToyMain
+      position: {x: -0, y: 0.026093602, z: 0}
+      rotation: {x: 0, y: 0, z: -0.00024391348, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToyMain.002
+      parentName: PussyToyMain.001
+      position: {x: -4.5474735e-13, y: 0.010375622, z: -0.0000000018626451}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToyMain.003
+      parentName: PussyToyMain.002
+      position: {x: 3.637979e-12, y: 0.015999978, z: -0.0000000018626451}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PussyToyMain.004
+      parentName: PussyToyMain.003
+      position: {x: -1.8189894e-12, y: 0.018071067, z: -0.0000000018626451}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CyberDickSet
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0.6759449, z: 0.19831002}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBase
+      parentName: CyberDickSet
+      position: {x: -0, y: 0.14634013, z: 0.007436728}
+      rotation: {x: 0.9997459, y: 0.000000005374736, z: -0.00000023835834, w: -0.022543266}
+      scale: {x: 1, y: 1, z: 1.0000011}
+    - name: MainBase.001
+      parentName: MainBase
+      position: {x: -1.9428903e-16, y: 0.03854096, z: 5.820766e-11}
+      rotation: {x: -0.012758191, y: -0.00000011919936, z: 0.000000007604484, w: 0.99991864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBase.002
+      parentName: MainBase.001
+      position: {x: 2.7412186e-16, y: 0.066366225, z: 5.820766e-11}
+      rotation: {x: 0.008426071, y: -9.940215e-14, z: -0.0000000060268, w: 0.99996454}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: MainBase.003
+      parentName: MainBase.002
+      position: {x: -1.7722206e-17, y: 0.027459301, z: 2.3283064e-10}
+      rotation: {x: -0.018211773, y: 0.000000043704134, z: 0.000000012230024, w: 0.9998342}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: EggMain
+      parentName: CyberDickSet
+      position: {x: -0, y: 0.14634013, z: 0.007436728}
+      rotation: {x: -0.00000033429288, y: -0.64637476, z: 0.7630201, w: 0.00000028445817}
+      scale: {x: 1, y: 0.9999997, z: 0.9999999}
+    - name: Egg.R.001
+      parentName: EggMain
+      position: {x: -0.009055722, y: 0.015305116, z: 0.0017778189}
+      rotation: {x: 0.15652218, y: 0.08809375, z: 0.2699043, w: 0.94598734}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Egg.R.002
+      parentName: Egg.R.001
+      position: {x: -6.9849193e-10, y: 0.025579924, z: 0.0000000027939677}
+      rotation: {x: -0.0040616365, y: -0.000117816424, z: -0.0043465868, w: 0.9999823}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Egg.L.001
+      parentName: EggMain
+      position: {x: 0.009055718, y: 0.015305116, z: 0.0017778346}
+      rotation: {x: 0.1565224, y: -0.08809458, z: -0.26990414, w: 0.9459872}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Egg.L.002
+      parentName: Egg.L.001
+      position: {x: -0.0000000018044375, y: 0.025579922, z: -0.000000004656613}
+      rotation: {x: -0.004061644, y: 0.00011782644, z: 0.004346627, w: 0.9999823}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: BreastPlug
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BreastPlugMain
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: 2.1735666e-16, y: 0.9788874, z: 0.026790604}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base
+      parentName: BreastPlugMain
+      position: {x: 3.5155176e-24, y: -0.018619148, z: -0.011075183}
+      rotation: {x: 0.99867636, y: 0.0000000735814, z: -0.0000014286571, w: -0.051434893}
+      scale: {x: 1, y: 0.99999994, z: 1.0000278}
+    - name: PlugBase.R.001
+      parentName: BreastPlugMain
+      position: {x: -0.04318925, y: -0.06340661, z: -0.0077518034}
+      rotation: {x: 0.0022719891, y: 0.8583383, z: -0.29245353, w: 0.42156988}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: PlugBase.R.002
+      parentName: BreastPlugMain
+      position: {x: -0.038846213, y: -0.04903385, z: -0.016423551}
+      rotation: {x: -0.16575706, y: 0.2749299, z: 0.944003, w: 0.07613507}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: PlugBase.L.001
+      parentName: BreastPlugMain
+      position: {x: 0.04318925, y: -0.06340661, z: -0.0077518034}
+      rotation: {x: -0.0022719891, y: 0.8583383, z: -0.29245353, w: -0.42156988}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: PlugBase.L.002
+      parentName: BreastPlugMain
+      position: {x: 0.038846213, y: -0.04903385, z: -0.016423551}
+      rotation: {x: 0.16575706, y: 0.2749299, z: 0.944003, w: -0.07613507}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: LegRing
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBodyBreast_Small
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBodyBreast_Medium
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBodyBreast_Large
+      parentName: EvilFall Bodysuit(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
